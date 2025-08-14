@@ -1,0 +1,6 @@
+3|baweke moges|male|41|dialysis
+6|chaltu jote|female|36|dialysis
+1|belay mekonen|male|33|radiology
+5|abaynesh mekuria|female|31|radiology
+2|tamene haylu|male|35|cardiology
+4|melat markos|female|32|cardiology

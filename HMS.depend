@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1755169399 source:d:\tilksew\c++\hms\main.cpp
+	<iostream>
+	"Hospital.h"
+
+1755176241 d:\tilksew\c++\hms\hospital.h
+	<iostream>
+	<string>
+	<unordered_map>
+	<queue>
+	<list>
+	<fstream>
+	<limits>
+	<ctime>
+	"Patient.h"
+	"Doctor.h"
+	"Appointment.h"
+	"LinkedList.h"
+	"MergeSort.h"
+	"Department.h"
+
+1755176272 d:\tilksew\c++\hms\patient.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1755176173 d:\tilksew\c++\hms\doctor.h
+	<iostream>
+	<string>
+	<queue>
+	"Appointment.h"
+
+1755176151 d:\tilksew\c++\hms\appointment.h
+	<string>
+	<iostream>
+
+1755161998 source:d:\tilksew\c++\hms\hospital.cpp
+	"Hospital.h"
+
+1755094992 source:d:\tilksew\c++\hms\doctor.cpp
+	"Doctor.h"
+	<sstream>
+
+1755095048 source:d:\tilksew\c++\hms\appointment.cpp
+	"Appointment.h"
+	<sstream>
+
+1755095126 source:d:\tilksew\c++\hms\patient.cpp
+	"Patient.h"
+	<algorithm>
+
+1755152720 source:d:\tilksew\c++\hms\linkedlist.cpp
+	"LinkedList.h"
+	<iostream>
+
+1755176251 d:\tilksew\c++\hms\linkedlist.h
+	"Medicine.h"
+	<vector>
+
+1755155351 d:\tilksew\c++\hms\medicine.h
+	<string>
+
+1755176262 d:\tilksew\c++\hms\mergesort.h
+	"Medicine.h"
+	<vector>
+
+1755153058 source:d:\tilksew\c++\hms\mergesort.cpp
+	"MergeSort.h"
+
+1755159919 d:\tilksew\c++\hms\department.h
+	<string>
+	<list>
+	<queue>
+	"Doctor.h"
+	"Appointment.h"
+
