@@ -82,10 +82,30 @@ It demonstrates how core computer science concepts can solve real-world organiza
   - Designed for educational demonstration of pointer manipulation.
 
 ### **Algorithms**
-- **Merge Sort (Divide & Conquer)**
-  - Sorts medicine inventory alphabetically by name.
-  - O(N log N) time complexity, stable sorting.
 
+1. **Merge Sort (Divide & Conquer)**
+   - Purpose: Sorts medicine inventory alphabetically by name.
+   - Time Complexity: O(N log N), Space Complexity: O(N).
+   - Stable sort: Preserves order of equal elements.
+   - Applied after converting the linked list to a vector.
+
+2. **Priority Scheduling (`std::priority_queue` with custom comparator)**
+   - Purpose: Ensures doctors see higher-priority patients before lower-priority ones.
+   - Time Complexity: O(log N) for insertion and removal.
+   - Based on `priorityLevel` set during assembler processing.
+
+3. **FIFO Queue Processing (`std::queue`)**
+   - Purpose: Manages patient flow in arrival order between Receptionist → Assembler → Pharmacy.
+   - Time Complexity: O(1) enqueue/dequeue operations.
+
+4. **Hash Map Lookup (`std::unordered_map`)**
+   - Purpose: Stores and retrieves patients, departments, and medicine prices by unique key.
+   - Time Complexity: O(1) average-case for search, insert, and delete.
+
+5. **Linear Search in Custom Linked List**
+   - Purpose: Locates medicines in inventory by name.
+   - Time Complexity: O(N) worst-case.
+   - Chosen for educational demonstration of pointer-based traversal and node manipulation.
 ---
 
 ## 🔄 Usage Flow
