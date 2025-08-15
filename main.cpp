@@ -25,8 +25,8 @@ void displayManagerMenu() {
 
 void displayReceptionistMenu() {
     std::cout << "\n--- Receptionist Menu ---\n";
-    std::cout << "1) Add new appointment\n";
-    std::cout << "2) Add existing appointment\n";
+    std::cout << "1) Add New Appointment\n";
+    std::cout << "2) Add Appointment for Existing Patient\n";
     std::cout << "3) Search by name\n";
     std::cout << "4) Back to Main Menu\n";
     std::cout << "Enter your choice: ";

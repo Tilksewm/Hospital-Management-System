@@ -86,7 +86,7 @@ void Hospital::addDoctor(const std::string& departmentName, const std::string& n
 }
 
 void Hospital::generatePatientLoadReport() {
-    std::cout << "--- Patient Load Report (Today) ---\n";
+    std::cout << "--- Patient Load Report (Now) ---\n";
     for (const auto& pair : departments) {
         std::cout << pair.first << ": " << pair.second.appointments.size() << " patients in queue\n";
     }
