@@ -1,8 +1,8 @@
 # Hospital Management System
 
 **Contributors:**  
-- Tilksew Misganaw (CEP0107/14)  
-- Bereket Kibret (CEP0309/14)  
+- Tilksew Misganaw
+- Bereket Kibret 
 
 ---
 
@@ -16,7 +16,6 @@ It demonstrates how core computer science concepts can solve real-world organiza
 - **Department organization**  
 - **Medicine inventory**  
 
-The system integrates **custom data structures** (including a hand-crafted singly linked list) and a **divide-and-conquer merge sort algorithm** to handle dynamic hospital operations efficiently.
 
 ---
 
@@ -91,20 +90,17 @@ The system integrates **custom data structures** (including a hand-crafted singl
 
 ## 🔄 Usage Flow
 
-1. **System Start**
-   - Load initial data from text files (`departments.txt`, `doctors.txt`, `patients.txt`, etc.).
-
-2. **Receptionist**
+1. **Receptionist**
    - Registers patients, creates appointments → pushes to `preAssemblerQueue`.
 
-3. **Assembler**
+2. **Assembler**
    - Retrieves from `preAssemblerQueue`, records vitals, assigns department → pushes to department’s `priority_queue`.
 
-4. **Doctor**
+3. **Doctor**
    - Retrieves from department queue by priority.
    - Updates patient history, creates prescription → pushes to `pharmacyQueue`.
 
-5. **Pharmacist**
+4. **Pharmacist**
    - Retrieves from `pharmacyQueue`, finds medicines in linked list.
    - Dispenses and updates inventory.
    - Optionally sorts inventory using merge sort for display.
